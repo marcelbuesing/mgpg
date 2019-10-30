@@ -1,0 +1,19 @@
+[package]
+name = "mcc" # MatterCryptClient
+version = "0.1.0"
+authors = ["marcelbuesing <buesing.marcel@googlemail.com>"]
+edition = "2018"
+readme = "README.md"
+
+[dependencies]
+async-std = "0.99"
+colored = "1.8"
+dialoguer = "0.4"
+dirs = "2.0"
+gpgme = "0.9"
+keyring = "0.7"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+structopt = "0.3"
+surf = { git = "https://github.com/http-rs/surf.git", branch = "master" }
+thiserror = "1.0"
