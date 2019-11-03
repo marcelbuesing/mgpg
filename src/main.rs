@@ -8,7 +8,6 @@ use serde::{Deserialize, Serialize};
 use serde_json::{self, Value};
 use std::fs::File;
 use std::io::{self, ErrorKind, Read, Write};
-use std::path::PathBuf;
 use structopt::StructOpt;
 use surf;
 use thiserror::Error as ThisError;
