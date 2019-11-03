@@ -13,8 +13,8 @@ use structopt::StructOpt;
 use surf;
 use thiserror::Error as ThisError;
 
-const KEYRING_SERVICE: &str = "mattercryptclient";
-const SETTINGS_FILE_NAME: &str = "mcc";
+const KEYRING_SERVICE: &str = "mgpg";
+const SETTINGS_FILE_NAME: &str = "mgpg";
 
 #[derive(ThisError, Debug)]
 enum Error {
@@ -35,7 +35,7 @@ enum Error {
 }
 
 #[derive(StructOpt, Debug)]
-#[structopt(name = "mattercrypt")]
+#[structopt(name = "mgpg")]
 struct Opt {
     #[structopt(short, long)]
     to: Vec<String>,
