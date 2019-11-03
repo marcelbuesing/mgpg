@@ -29,7 +29,7 @@ enum Error {
     #[error("IO error {}", .0)]
     Io(#[from] io::Error),
     #[error("Key UTF8 decoding error {:?}", .0)]
-    KeyUtf8Error(#[from] Option<std::str::Utf8Error>),
+    KeyUtf8(#[from] Option<std::str::Utf8Error>),
     #[error("Keyring error {}", .0)]
     Keyring(#[from] keyring::KeyringError),
 }
