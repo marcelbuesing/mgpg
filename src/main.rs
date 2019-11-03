@@ -41,8 +41,8 @@ struct Opt {
     to: Vec<String>,
     #[structopt(short, long)]
     sign: bool,
-    #[structopt(short, long, parse(from_os_str))]
-    file: Option<PathBuf>,
+    // #[structopt(short, long, parse(from_os_str))]
+    // file: Option<PathBuf>,
     #[structopt(long)]
     reinit: bool,
     #[structopt()]

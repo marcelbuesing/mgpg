@@ -70,7 +70,6 @@ FLAGS:
     -V, --version    Prints version information
 
 OPTIONS:
-    -f, --file <file>
     -t, --to <to>...
 
 ARGS:
