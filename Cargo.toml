@@ -6,6 +6,7 @@ repository = "https://github.com/marcelbuesing/mgpg"
 documentation = "https://docs.rs/mgpg"
 authors = ["marcelbuesing <buesing.marcel@googlemail.com>"]
 edition = "2018"
+license = "LGPL-2.1-or-later"
 readme = "README.md"
 
 [dependencies]
