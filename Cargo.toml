@@ -1,5 +1,5 @@
 [package]
-name = "mcc" # MatterCryptClient
+name = "mgpg" # Mattermost GPG Client
 version = "0.1.0"
 authors = ["marcelbuesing <buesing.marcel@googlemail.com>"]
 edition = "2018"
