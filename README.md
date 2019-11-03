@@ -9,6 +9,7 @@
   <p>
     <a href="https://github.com/marcelbuesing/mgpg/actions?query=workflow%3ACI"><img alt="Build Status" src="https://github.com/marcelbuesing/mgpg/workflows/CI/badge.svg"/></a>
     <a href="https://crates.io/crates/mgpg"><img alt="crates.io" src="https://meritbadge.herokuapp.com/mgpg"/></a>
+    <a href="https://crates.io/crates/mgpg"><img alt="crates.io" src="https://img.shields.io/crates/l/mgpg/0.1.0"/></a>
   </p>
 
   <h3>
